@@ -1,8 +1,6 @@
 # Azure OpenAI GPT-4o to GPT-5.1 Migration Guide
 
-> **DISCLAIMER: This is not a Microsoft Official Guide, please contact your Microsoft accounts team for advice and cosultation
->
-> **
+> **DISCLAIMER:** This is not a Microsoft Official Guide. Please contact your Microsoft accounts team for advice and consultation.
 
 Welcome! This guide helps you seamlessly migrate your Azure OpenAI applications from GPT-4o to GPT-5.1. Microsoft has made significant improvements in GPT-5.1 including better reasoning capabilities, improved accuracy, and more cost-effective pricing — and we're here to help you take full advantage of these enhancements.
 
@@ -21,11 +19,12 @@ This repository provides everything you need for a successful migration with min
 
 ```
 ├── docs/
-│   ├── migration-guide.md      # Step-by-step migration instructions
-│   ├── api-changes.md          # Detailed API parameter changes
-│   ├── golden-datasets.md      # How to build evaluation datasets
-│   ├── evaluation-guide.md     # Azure AI Foundry evaluation setup
-│   └── faq.md                  # Frequently asked questions
+│   ├── migration-guide.md         # Step-by-step migration instructions
+│   ├── migration-plan-template.md # Plan template with architecture scenarios
+│   ├── api-changes.md             # Detailed API parameter changes
+│   ├── golden-datasets.md         # How to build evaluation datasets
+│   ├── evaluation-guide.md        # Azure AI Foundry evaluation setup
+│   └── faq.md                     # Frequently asked questions
 ├── examples/
 │   ├── before/                 # GPT-4o code examples
 │   ├── after/                  # GPT-5.1 migrated code
@@ -55,7 +54,7 @@ This repository provides everything you need for a successful migration with min
 
 ```bash
 # Clone this repo
-git clone https://github.com/your-org/azure-openai-migration-guide.git
+git clone https://github.com/fatimataayeb/azure-openai-migration-guide.git
 cd azure-openai-migration-guide
 
 # Audit your codebase for parameters that need updating
@@ -96,13 +95,14 @@ python scripts/run_evaluation.py --dataset datasets/your_golden_dataset.jsonl
 
 ## 📖 Documentation
 
-| Guide                                            | Description                                  |
-| ------------------------------------------------ | -------------------------------------------- |
-| [Migration Guide](docs/migration-guide.md)          | Complete step-by-step migration process      |
-| [API Changes](docs/api-changes.md)                  | Detailed parameter changes and code examples |
-| [Building Golden Datasets](docs/golden-datasets.md) | How to create effective test datasets        |
-| [Evaluation Guide](docs/evaluation-guide.md)        | Setting up Azure AI Foundry evaluations      |
-| [FAQ](docs/faq.md)                                  | Common questions and answers                 |
+| Guide                                               | Description                                        |
+| --------------------------------------------------- | -------------------------------------------------- |
+| [Migration Guide](docs/migration-guide.md)          | Complete step-by-step migration process            |
+| [Migration Plan Template](docs/migration-plan-template.md) | Plan template with dataset prep & architecture scenarios |
+| [API Changes](docs/api-changes.md)                  | Detailed parameter changes and code examples       |
+| [Building Golden Datasets](docs/golden-datasets.md) | How to create effective test datasets              |
+| [Evaluation Guide](docs/evaluation-guide.md)        | Setting up Azure AI Foundry evaluations            |
+| [FAQ](docs/faq.md)                                  | Common questions and answers                       |
 
 ## 🛠️ What Needs to Change
 
