@@ -1,7 +1,8 @@
 # Azure OpenAI GPT-4o to GPT-5.1 Migration Guide
 
-> 
-> **Your smooth path to the next generation of AI** 🚀
+> **DISCLAIMER: This is not a Microsoft Official Guide, please contact your Microsoft accounts team for advice and cosultation
+>
+> **
 
 Welcome! This guide helps you seamlessly migrate your Azure OpenAI applications from GPT-4o to GPT-5.1. Microsoft has made significant improvements in GPT-5.1 including better reasoning capabilities, improved accuracy, and more cost-effective pricing — and we're here to help you take full advantage of these enhancements.
 
